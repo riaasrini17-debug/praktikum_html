@@ -4,42 +4,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Praktikum HTML</title> 
+  <title>Profile Mahasiswa</title> 
 </head>
 <body>
     <!--judul Halaman atau Bagian-->
-    <h1>Profil Mahasiswa</h1>
+    <h1>Profile Mahasiswa</h1>
     
     <!-- Subjudul untuk Bagian Biografi -->
-    <h2>Biografi</h2>
+    <h2>Biografi Saya </h2>
     <!--Paragraf Biografi-->
     <p>Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas 
 pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin 
-memperdalam pengetahuan dalam HTML dan CSS.</p>
-
-    <!--Subjudul Untuk Pendidikan-->
-    <h2>Pendidikan</h2>
-    <!--Paragraf Pendidikan-->
-    <p>Saat ini saya sedang menempuh semester ketiga di jurusan Ilmu Komputer. Saya 
+memperdalam pengetahuan dalam HTML dan CSS. Saat ini saya sedang menempuh semester ketiga di jurusan Ilmu Komputer. Saya 
 mengambil kursus tentang dasar-dasar pengembangan web untuk meningkatkan 
 keterampilan saya dalam bidang ini.</p>
-
-    <!--Menggunakan Hyperlink-->
-    <h2>Kontak Saya</h2>
-    <p>Anda dapat menghubungi saya melalui email di <a 
-    href="mailto:ria@domain.com">ria@domain.com</a>.</p>
     
     <!--Menambahakan Gambar -->
     <h2>Proyek Terakhir</h2>
     <p>Berikut ini adalah proyek terakhir yang telah saya kerjakan:</p>
-    <img src="meme.jpg" alt="ini cuman meme">
+    <img src="404.png" alt="ini cuman meme">
 
     <!--Hyperlink ke dokumen eksternal-->
     <p>Untuk informasi lebih lanjut, kunjungi <a href="http://www.profilemahasiswa.com"
-    target="_blank">website saya</a>.<p>
+    target="_blank">website saya @www.com</a>.<p>
+
 
     <!--Unorder list untuk menampilkan daftar hobi-->
     <h2>Hobi saya</h2>
+    <p>Berikut adalah beberapa hobi saya:</p>
     <ul>
         <li>Membaca buku</li>
         <li>Bersepeda</li>
@@ -47,7 +39,7 @@ keterampilan saya dalam bidang ini.</p>
     </ul>
 
     <!--Order list untuk menampilan proses pendidikan-->
-    <h2>Riwayat Pendidikan</h2>
+    <h2>Riwayat Pendidikan Saya</h2>
     <ol>
         <li>SD Negeri di SDN 01</li>
         <li>SMP Negeri di SMPN 02</li>
@@ -55,30 +47,42 @@ keterampilan saya dalam bidang ini.</p>
     </ol>
 
     <!-- TabelJadwal Kuliah-->
-    <h2>Jadwal Kuliah Semester Ini</h2>
-    <table border="1">
+    <h2>Jadwal Kuliah Semester 3 </h2>
+    <table border="1" >
         <tr>
             <th>Hari</th>
             <th>Mata Kuliah</th>
             <th>Waktu</th>
-            <th>Ruang</th>
         </tr>
         <tr>
             <td>Senin</td>
-            <td>Matematika Diskrit</td>
-            <td>08:00 - 10:00</td>
-            <td>Ruang 101</td>
+            <td>Pengantar Kecerdasan Buatan <br> Konfigurasi Administrasi Jaringan</td>
+            <td>08:00 - 10:00 <br> 11:00 - 14.00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Pendidikan anti korupsi <br> Konfigurasi Administrasi Jaringan</td>
+            <td>08:00 - 10:00 <br> 11:00 - 14:00</td>
         </tr>
         <tr>
             <td>Rabu</td>
-            <td>Pemrograman Web</td>
-            <td>10:00 - 12:00</td>
-            <td>Ruang 202</td>
+            <td>Pengantar Kecerdasan Buatan <br> Pemrograman Web</td>
+            <td>10:00 - 12:00 <br> 11:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Pengantar Kecerdasan Buatan <br> Konfigurasi Administrasi Jaringan</td>
+            <td>08:00 - 10:00 <br> 11:00 - 14.00</td>
         </tr>
         <!--Baris tambahan untuk jadwal kuliah-->   
     </table>
+    <!--Menggunakan Hyperlink-->
+    <h2>Kontak Saya</h2>
+    <p>Anda dapat menghubungi saya melalui email di <a 
+    href="mailto:@riadomain.com">@riadomain.com</a>.</p>
+
     <!--Formulir Kontak-->
-    <h2>Formulir Kontak</h2>
+    <h2>Saran dan Pesan</h2>
     <form action="submit_form.php" method="post">
         <label for="name">Nama:</label>
         <input type="text" id="name" name="Fullname" required><br><br>
@@ -92,5 +96,9 @@ keterampilan saya dalam bidang ini.</p>
         <button type="submit">Kirim</button>
     </form>
 
+    <div style="text-align: center">
+    <h1>Sekian dan Terimakasih</h1>
+    <img src="meme.jpg" alt="ini cuman meme">
+    </div>
 </body>
 </html>
